@@ -2,7 +2,6 @@ const jwt = require('jsonwebtoken');
 
 
 class AuthController {
-
     /**
      * @DESC : Verify users
      * @param : string/int
@@ -26,10 +25,8 @@ class AuthController {
                 }
                 return responsehelper.authendication(req, res, responseCode.HTTP_UNAUTHORIZED);           
 
-            
-
         } catch (error) {
-
+            logger.error({error:error})
             return responsehelper.authendication(req, res, responseCode.HTTP_UNPROCESSABLE_ENTITY);        
         }
     };
