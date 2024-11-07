@@ -1,8 +1,7 @@
-const responseCode = require('./Responsecode'); //Resonse code
+const responseCode = require('./ResponseCode'); //Resonse code
 const responseMessage = require('./ResponseMessage'); //Resonse code
 
 class Responsehelper {
-
     /**
      * @DESC : Return Response JSON
      * @prams:  String / Int / array
