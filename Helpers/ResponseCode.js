@@ -1,5 +1,4 @@
 module.exports = {
-
     "ERR_CONNECTION_RESET": 101,
     "HTTP_OK": 200,
     "HTTP_CREATED": 201,
